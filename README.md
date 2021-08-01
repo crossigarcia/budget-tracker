@@ -16,7 +16,7 @@ A budget tracking PWA that allows users to easily enter (and keep track of) thei
 To install the application clone the repository and run `npm i` in the command line to install dependencies.
 
 ## Usage:
-* Use the deployed application here:
+* Use the deployed application here: https://track-your-budget-pwa.herokuapp.com/
 * You can download the PWA from your browser
 ### OR:
 * Once repo is cloned locally, run `npm start` in the command line to start the application and go to `http://localhost:3001` to view the app in your browser.
