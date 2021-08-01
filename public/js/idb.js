@@ -5,7 +5,7 @@ const indexedDB =
   window.msIndexedDB ||
   window.shimIndexedDB;
 let db;
-const request = indexedDB.open("budget_tracker", 1);
+const request = indexedDB.open("budget-tracker", 1);
 request.onupgradeneeded = ({ target }) => {
   let db = target.result;
   db.createObjectStore("pending", { autoIncrement: true });
